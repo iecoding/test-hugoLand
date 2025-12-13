@@ -1,8 +1,8 @@
 ---
-title: "About"
+title: "Acerca de"
 draft: false
 ---
 
-# About Us
+# Acerca de Nosotros
 
-Made with ❤️ by the *Hugo Bootstrap Theme* [team](https://github.com/filipecarneiro/hugo-bootstrap-theme/graphs/contributors).
+Hecho con ❤️ por el equipo de *CoDevelopIT*.

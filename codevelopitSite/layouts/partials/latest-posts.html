@@ -1,6 +1,15 @@
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
-    {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section" "post" ) }}
+    {{ $posts := where .Site.RegularPages.ByDate.Reverse "Section" "post" }}
+    {{ if or (not $posts) (eq (len $posts) 0) }}
+        {{ range site.Sites }}
+            {{ if eq .Language.Lang "es-mx" }}
+                {{ $posts = where .RegularPages.ByDate.Reverse "Section" "post" }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    {{ if $posts }}
+        {{ range first 3 $posts }}
         <div class="col">
 
             <div class="card h-100">
@@ -12,7 +21,7 @@
                     </h4>
                     {{ with .Params.authors }}
                         <p class="card-subtitle text-muted">
-                            by {{ index . 0 }}
+                            {{ i18n "by" }} {{ index . 0 }}
                         </p>
                     {{ end }}
                     <p class="card-text mt-3">
@@ -29,6 +38,7 @@
             </div>
  
         </div>
+        {{ end }}
     {{ end }}
 
 </div>

@@ -1,0 +1,52 @@
+# Traducciones en español (México)
+
+[latest_posts]
+other = "Últimas Publicaciones"
+
+[featured_pages]
+other = "Páginas Destacadas"
+
+[get_started]
+other = "Comenzar"
+
+[by]
+other = "por"
+
+[open_source_mit_licensed]
+other = "Código abierto con licencia MIT."
+
+[security_aware]
+other = "Consciente de la seguridad"
+
+[security_aware_description]
+other = "Obtén puntuaciones A+ en <a href=\"https://observatory.mozilla.org/\" target=\"_blank\" rel=\"noopener\">Mozilla Observatory</a> listo para usar. Cambia fácilmente los Encabezados de Seguridad predeterminados para satisfacer tus necesidades."
+
+[fast_by_default]
+other = "Rápido por defecto"
+
+[fast_by_default_description]
+other = "Obtén puntuaciones de 100 en <a href=\"https://googlechrome.github.io/lighthouse/viewer/?gist=1f990bcb2d769bb4e82e7fc7a8be2b1f\" target=\"_blank\" rel=\"noopener\">Google Lighthouse</a> por defecto. El Tema Hugo Bootstrap elimina CSS no utilizado, pre-carga enlaces y carga imágenes de forma diferida."
+
+[seo_ready]
+other = "Optimizado para SEO"
+
+[seo_ready_description]
+other = "Usa valores predeterminados sensatos para datos estructurados, <a href=\"https://ogp.me/\" target=\"_blank\" rel=\"noopener\">open graph</a>, y <a href=\"https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards\" target=\"_blank\" rel=\"noopener\">tarjetas de Twitter</a>. O cambia fácilmente la configuración de Optimización para Motores de Búsqueda a tu gusto."
+
+[hugo]
+other = "Hugo"
+
+[hugo_description]
+other = "<a href=\"https://gohugo.io/\" target=\"_blank\" rel=\"noopener\">Hugo</a> es uno de los generadores de sitios estáticos de código abierto más populares. Con su increíble velocidad y flexibilidad, Hugo hace que construir sitios web sea divertido nuevamente."
+
+[bootstrap]
+other = "Bootstrap"
+
+[bootstrap_description]
+other = "Potente, extensible y repleto de funciones <a href=\"https://getbootstrap.com/\" target=\"_blank\" rel=\"noopener\">kit de herramientas frontend</a>. Construye y personaliza con Sass, utiliza el sistema de cuadrícula y componentes preconstruidos, y da vida a proyectos con potentes complementos JavaScript."
+
+[page_layouts]
+other = "Diseños de página"
+
+[page_layouts_description]
+other = "Construye páginas con un diseño de página de inicio, blog o documentación. Agrega secciones y componentes personalizados para satisfacer tus necesidades."

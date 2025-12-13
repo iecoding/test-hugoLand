@@ -1,0 +1,52 @@
+# English translations
+
+[latest_posts]
+other = "Latest Posts"
+
+[featured_pages]
+other = "Featured Pages"
+
+[get_started]
+other = "Get Started"
+
+[by]
+other = "by"
+
+[open_source_mit_licensed]
+other = "Open-source MIT Licensed."
+
+[security_aware]
+other = "Security aware"
+
+[security_aware_description]
+other = "Get A+ scores on <a href=\"https://observatory.mozilla.org/\" target=\"_blank\" rel=\"noopener\">Mozilla Observatory</a> out of the box. Easily change the default Security Headers to suit your needs."
+
+[fast_by_default]
+other = "Fast by default"
+
+[fast_by_default_description]
+other = "Get 100 scores on <a href=\"https://googlechrome.github.io/lighthouse/viewer/?gist=1f990bcb2d769bb4e82e7fc7a8be2b1f\" target=\"_blank\" rel=\"noopener\">Google Lighthouse</a> by default. Hugo Bootstrap Theme removes unused css, prefetches links, and lazy loads images."
+
+[seo_ready]
+other = "SEO-ready"
+
+[seo_ready_description]
+other = "Use sensible defaults for structured data, <a href=\"https://ogp.me/\" target=\"_blank\" rel=\"noopener\">open graph</a>, and <a href=\"https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/abouts-cards\" target=\"_blank\" rel=\"noopener\">Twitter cards</a>. Or easily change the Search Engine Optimization settings to your liking."
+
+[hugo]
+other = "Hugo"
+
+[hugo_description]
+other = "<a href=\"https://gohugo.io/\" target=\"_blank\" rel=\"noopener\">Hugo</a> is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
+
+[bootstrap]
+other = "Bootstrap"
+
+[bootstrap_description]
+other = "Powerful, extensible, and feature-packed <a href=\"https://getbootstrap.com/\" target=\"_blank\" rel=\"noopener\">frontend toolkit</a>. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins."
+
+[page_layouts]
+other = "Page layouts"
+
+[page_layouts_description]
+other = "Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs."

@@ -1,6 +1,15 @@
 <div class="row row-cols-1 g-4">
 
-    {{ range .Site.Taxonomies.tags.featured }}
+    {{ $featured := .Site.Taxonomies.tags.featured }}
+    {{ if or (not $featured) (eq (len $featured) 0) }}
+        {{ range site.Sites }}
+            {{ if eq .Language.Lang "es-mx" }}
+                {{ $featured = .Taxonomies.tags.featured }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    {{ if $featured }}
+        {{ range $featured }}
         <div class="col">
 
             <div class="card">
@@ -26,5 +35,6 @@
             </div>
     
         </div>
+        {{ end }}
     {{ end }}
 </div>

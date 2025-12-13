@@ -2,7 +2,7 @@
   languageName = "Español (México)"
   languageCode = "es-MX"
   weight = 10
-  title = "CoDevelopIT - Desarrollo de Software"
+  title = "CoDevelopIT"
   [es-mx.params]
     languageISO = "ES"
     description = "Tema de Hugo para un sitio web estático seguro, ultrarrápido y optimizado para SEO, usando Bootstrap 5."
