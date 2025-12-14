@@ -1,0 +1,40 @@
+<div class="row row-cols-1 g-4">
+
+    {{ $featured := .Site.Taxonomies.tags.featured }}
+    {{ if or (not $featured) (eq (len $featured) 0) }}
+        {{ range site.Sites }}
+            {{ if eq .Language.Lang "es-mx" }}
+                {{ $featured = .Taxonomies.tags.featured }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    {{ if $featured }}
+        {{ range $featured }}
+        <div class="col">
+
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a class="stretched-link text-primary text-decoration-none" href="{{ .RelPermalink }}">
+                            {{ .Title }}
+                        </a>
+                    </h4>
+                    <p class="text-text">
+                        {{ with .Params.description }}
+                            {{ . }}
+                        {{ else }}
+                            {{ .Summary | truncate 400 }}
+                        {{ end }}
+                    </p>
+                    <p class="text-text text-muted">
+                        <small>
+                            {{ .Lastmod | time.Format ":date_long" }}
+                        </small>
+                    </p>
+                </div>
+            </div>
+    
+        </div>
+        {{ end }}
+    {{ end }}
+</div>

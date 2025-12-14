@@ -1,0 +1,17 @@
+[es-mx]
+  languageName = "Español (México)"
+  languageCode = "es-MX"
+  weight = 10
+  title = "Isoptika"
+  [es-mx.params]
+    languageISO = "ES"
+    description = "Tema de Hugo para un sitio web estático seguro, ultrarrápido y optimizado para SEO, usando Bootstrap 5."
+
+[en]
+  languageName = "English"
+  languageCode = "en-US"
+  weight = 20
+  title = "Isoptika"
+  [en.params]
+    languageISO = "EN"
+    description = "Hugo theme for a secure, blazing fast and SEO-ready static website, using Bootstrap 5."

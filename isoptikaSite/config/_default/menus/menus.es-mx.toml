@@ -1,0 +1,53 @@
+[[main]]
+name = "Inicio"
+url = ""
+weight = 10
+
+[[main]]
+name = "Acerca de"
+url = "about"
+weight = 20
+title = "Hecho con ❤️ por el equipo de Isoptika"
+
+[[main]]
+identifier = "blog"
+name = "Blog"
+weight = 40
+
+[[main]]
+name = "Todos"
+url = "post"
+weight = 100
+parent = "blog"
+
+[[main]]
+name = "Hugo"
+url = "tags/hugo"
+weight = 20
+parent = "blog"
+
+[[main]]
+name = "Bootstrap"
+url = "tags/bootstrap"
+weight = 30
+parent = "blog"
+
+[[main]]
+identifier = "docs"
+name = "Documentación"
+url = "page"
+weight = 50
+
+[[social]]
+  name = "GitHub"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/hugo-bootstrap-theme/images/feather/feather-sprite.svg#github'/></svg>"
+  url = "https://github.com/filipecarneiro/hugo-bootstrap-theme/"
+  weight = 10
+  title = "Visita el proyecto en GitHub"
+
+[[social]]
+  name = "Twitter"
+  pre = "<svg xmlns='http://www.w3.org/2000/svg' class='feather feather-twitter'><use href='/hugo-bootstrap-theme/images/feather/feather-sprite.svg#twitter'/></svg>"
+  url = "https://twitter.com/jfilipecarneiro/"
+  weight = 20
+  title = "Contacto en Twitter"
