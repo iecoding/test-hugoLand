@@ -13,7 +13,7 @@ Un componente de presentación de diapositivas para recorrer elementos—imágen
 
 <br>
 
-<div class="w-50 mx-auto">
+<div class="w-100 mx-auto">
     {{< carousel imagesPattern="carousel/*.png" aspectRatio="3/2" crossFade=false withIndicators=true withControls=true >}}
 </div>
 

@@ -1,14 +1,14 @@
 // Default variable overrides
 
 // scss-docs-start theme-color-variables
-$primary:       #0d6efd;
-$secondary:     #6c757d;
-$success:       #198754;
-$info:          #0dcaf0;
-$warning:       #ffc107;
-$danger:        #dc3545;
-$light:         #f8f9fa;
-$dark:          #212529;
+$primary:       #353839;  // Color de acento principal (gris oscuro)
+$secondary:     #5a6268;  // Gris medio que complementa el primary
+$success:       #198754;  // Verde para acciones exitosas
+$info:          #0dcaf0;  // Cian para información
+$warning:       #ffc107;  // Amarillo para advertencias
+$danger:        #dc3545;  // Rojo para acciones peligrosas
+$light:         #f8f9fa;  // Fondo claro
+$dark:          #1a1d1e;  // Oscuro más profundo que primary para mejor contraste
 // scss-docs-end theme-color-variables
 
 // Your variable overrides
